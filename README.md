@@ -40,3 +40,5 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+## [Color Palette](https://coolors.co/0c2b3b-3edde0-cbdeef-ffd447-4c1c00)
