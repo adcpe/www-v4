@@ -5,10 +5,11 @@
   </div>
 </template>
 
-<script>
-  export default {
-
-  }
+<script setup>
+  const title = ref('Andrés Del Carpio')
+  useHead({
+    title,
+  })
 </script>
 
 <style>
