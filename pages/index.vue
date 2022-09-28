@@ -3,7 +3,7 @@
     <h1>Hello, my name is</h1>
     <h2>Andrés Del Carpio.</h2>
     <h3>Full Stack Developer</h3>
-    <p class="blurb">I build web stuff.</p>
+    <!-- <p class="blurb">I build web stuff.</p> -->
     <a @click="copyNametoClipboard" class="mail-address center">andresds@andresdc.net</a>
   </main>
 </template>
@@ -28,7 +28,7 @@
 
   h1 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+    font-size: clamp(14px, 5vw, 16px);
     font-weight: 600;
     color: #3EDDE0;
     margin: 0;
